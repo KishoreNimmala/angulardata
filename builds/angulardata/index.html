@@ -2,7 +2,7 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
-  <title>Angular Registration</title>
+  <title>Angular Data</title>
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
@@ -29,26 +29,31 @@
 
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script> -->
   <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
   <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script> -->
   <!-- <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script> -->
 
   <script>
     // Your web app's Firebase configuration
     var firebaseConfig = {
-      apiKey: "AIzaSyBN7UkFfgs93Qle1qImHzmC5G4EEy1nqdk",
-      authDomain: "angularregistration08-490a7.firebaseapp.com",
-      databaseURL: "https://angularregistration08-490a7.firebaseio.com",
-      projectId: "angularregistration08-490a7",
-      storageBucket: "angularregistration08-490a7.appspot.com",
-      messagingSenderId: "415485163634",
-      appId: "1:415485163634:web:973dc869fbd6bebc826aeb",
-      measurementId: "G-YDBGF3E3P5"
+    apiKey: "AIzaSyC_uHhKzvQXZv41Kpd5aD0_0Jeyn2RyFWE",
+    authDomain: "angulardata-7275f.firebaseapp.com",
+    databaseURL: "https://angulardata-7275f.firebaseio.com",
+    projectId: "angulardata-7275f",
+    storageBucket: "angulardata-7275f.appspot.com",
+    messagingSenderId: "952786783261",
+    appId: "1:952786783261:web:241fbdc0bd9f1ac5f10af4",
+    measurementId: "G-HTTT3V3ZY4"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+
+
+
     /*firebase.analytics();*/
   </script>
 
@@ -58,7 +63,7 @@
   
   <script src="js/app.js"></script>
   <script src="js/controllers/registration.js"></script>
-  <script src="js/controllers/success.js"></script>
+  <script src="js/controllers/meetings.js"></script>
   <script src="js/services/authentication.js"></script>
   </body>
 </html>
