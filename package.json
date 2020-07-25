@@ -1,0 +1,18 @@
+{
+  "name": "angulardata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kishore Nimmala",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browserify": "^16.5.1"
+  }
+}
