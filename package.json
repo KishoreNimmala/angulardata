@@ -9,7 +9,7 @@
   "author": "Kishore Nimmala",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.10",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2"
   },
   "dependencies": {
